@@ -8,6 +8,7 @@ Julian Franzen
 Zhi Wang
 
 
+
 ### Descirption
 python script that scrapes indeed job listing for the user specified `job` at the user specified `location`  
 
