@@ -1,3 +1,12 @@
+"""
+
+Authors: 
+Brandon Nadeau
+
+
+"""
+
+
 import os, sys, json
 from collections import namedtuple
 from textwrap import indent
