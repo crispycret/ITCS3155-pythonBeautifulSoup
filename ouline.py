@@ -7,10 +7,8 @@ Brandon Nadeau
 """
 
 
-import os, sys, json
+import json
 from collections import namedtuple
-from textwrap import indent
-from attr import attrs 
 from pprint import pprint
 
 import requests
@@ -97,13 +95,13 @@ def saveDataInJSON(jobDetails):
 def main():
     # Write a code here to get job location and role from user e.g. role = input()
     print("Enter role you want to search")
-    # role = input()
-    role = "software engineer"
+    role = input()
+    # role = "software engineer"
 
     # Complete the missing part of this function here
     print("\nEnter the location you want to search")
-    # location = input()
-    location = "charlotte"
+    location = input()
+    # location = "charlotte"
 
     print("\nRole: %s\nLocation: %s\n" % (role, location))
 
