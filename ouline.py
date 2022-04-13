@@ -102,7 +102,7 @@ def main():
 
     displayJobDetails(jobDetails)
 
-    # saveDataInJSON(jobDetails)
+    saveDataInJSON(jobDetails)
 
 
 
