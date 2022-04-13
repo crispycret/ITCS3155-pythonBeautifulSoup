@@ -2,7 +2,8 @@
 
 Authors: 
 Brandon Nadeau
-
+Zhi Wang
+Julian Franzen
 
 """
 
