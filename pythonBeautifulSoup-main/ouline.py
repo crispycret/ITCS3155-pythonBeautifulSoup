@@ -9,6 +9,10 @@ def displayJobDetails():
 def getJobList(role,location):
     url = 'https://www.indeed.com/jobs?q={role}&l={location}'
     # Complete the missing part of this function here 
+    status = requests.get(url)
+    job = BeautifulSoup(status.content, 'html.parser')
+    jobTitle = job.find('h2', class_= 'jobTitle').text
+    print(jobTitle)
 
 #save data in JSON file
 def saveDataInJSON(jobDetails):
@@ -22,6 +26,7 @@ def main():
     role = input()
     print("Enter location you want to search")
     location = input()
+    getJobList(role, location)
     print("Role: " + role + ", Location: " + location)
     # Complete the missing part of this function here
     
